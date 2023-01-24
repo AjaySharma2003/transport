@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Bitter&family=La+Belle+Aurore&family=Lato&family=Playfair+Display+SC:wght@700&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: linear-gradient(#eae5c9,#6cc6cb);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    margin-top:50px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px #a6a3a2;
+}
+.form-control{
+    border-radius: 13px;
+    width: 300px;
+}
+.control-label{
+    margin-left: 3px;
+    font-family: 'Bitter', serif;
+    font-size: 17px;
+}
+.letter-design{
+    font-size: 16px;
+    font-family: 'Bitter', serif;
+}
+.head-letter{
+    font-family: 'Playfair Display SC', serif;
+}
+.head-letter h3{
+    font-size:30px;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: #6cc6cb;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+.form-head{
+    font-family: 'Bitter', serif;
+    margin-left: 2px;
+    font-style: bold;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+.navigation{
+    background-color: transparent;
+     padding-right: 50px;
+     padding-top:5px;
+     border-bottom: none;
+}
+ul li{
+    background-color: transparent;
+    font-size: 20px;
+}
+ul li a .active-page{
+    color: black;
+}
+.bus-info-tab td{
+    padding:35px;
+    padding-bottom:0px;
+}
